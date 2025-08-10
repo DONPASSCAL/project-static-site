@@ -1,0 +1,48 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Docker
+*.log
+*.env
+docker-compose.override.yml
+
+# Node/npm (if you add frontend tooling later)
+node_modules/
+dist/
+build/
+
+# Python (if you use scripts or Ansible)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# GitHub Actions artifacts
+*.bak
+*.swp
+*.swo
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.iml
+
+# Secrets (if manually created)
+.env
+*.pem
+*.key
+*.crt
